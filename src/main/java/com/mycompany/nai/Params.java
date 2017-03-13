@@ -83,6 +83,11 @@ public class Params {
     
     public String CONNECTION_STRING;
     
+    public String TRUE_STRING_VALUE;
+    public String FALSE_STRING_VALUE;
+    
+    
+    
     public Params(String pathToConfigurationFile) throws Exception, IOException,MyException {
 
 //        throw (new MyException());

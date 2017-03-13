@@ -56,6 +56,11 @@ public class Logger {
         //Set verbose mode
         this.verboseMode = verboseMode;
     }
+    
+    
+    public void closeApp(){
+        closeApplication();
+    }
 
     /**
      * Close application with error

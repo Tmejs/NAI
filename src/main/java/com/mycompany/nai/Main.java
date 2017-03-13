@@ -10,15 +10,30 @@ package com.mycompany.nai;
  * @author Tmejs (mateusz.rzad@gmail.com)
  */
 public class Main {
+
+    public static Logger LOG;
+    public static Params PARAMS;
+
     /**
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+        //Inicjacja paramsów
+        try {
+            PARAMS = new Params(null);
+        } catch (Exception e) {
+            e.printStackTrace();
+            closeApp();
+        }
+
+        //Inicjalizacja LOG
+        LOG = new Logger(PARAMS.LOG_FILE_PATH,PARAMS.IS_FILE_APPEND, PARAMS.VERBOSE_MODE);
+        
+        
+        /* Set the Nimbus look and feel */ //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+                /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
+                 */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -45,8 +60,8 @@ public class Main {
             }
         });
     }
-    
-    public static void closeApp(){
+
+    public static void closeApp() {
         System.exit(0);
     }
 }
