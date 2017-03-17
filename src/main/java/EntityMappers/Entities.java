@@ -5,6 +5,9 @@
  */
 package EntityMappers;
 
+import com.mycompany.nai.Logger;
+import com.mycompany.nai.Main;
+import java.rmi.Naming;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -33,6 +36,18 @@ public class Entities {
 
     public void addEntity(AEntity entity) {
         getEntitites().add(entity);
+    }
+
+    public void printEntities() {
+        Main.LOG.addLog(this, Logger.LogType.DEBUG, "printEntities()");
+        for(AEntity entity:entities){
+            System.out.print(entity.getName());
+            for(Attribute atr:entity.getAttributes()){
+                System.out.print(atr.getAttributeName()+":"+atr.getValue());
+            }
+            System.out.println("");
+        }
+        
     }
 
     public AEntity getEntity(String entityName) {

@@ -5,6 +5,7 @@
  */
 package EntityMappers;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -16,7 +17,7 @@ public interface IEntity {
     
     public String getName();
     
-    public List getAttributes();
+    public ArrayList<Attribute> getAttributes();
     
     public Object getAttribute(String attributeName);
     

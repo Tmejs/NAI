@@ -52,13 +52,14 @@ public class Logger {
             //Close app cause logger is important
             closeApplication();
         }
-
-        //Set verbose mode
         this.verboseMode = verboseMode;
+        
+        addLog(this, LogType.DEBUG, " Logg initialized on " + logFilePath + "with verbose mode =" + verboseMode.toString());
+        //Set verbose mode
+
     }
-    
-    
-    public void closeApp(){
+
+    public void closeApp() {
         closeApplication();
     }
 

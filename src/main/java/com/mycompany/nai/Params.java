@@ -34,7 +34,7 @@ public class Params {
 
     //MustBe params
     //Application name
-    public static final String APP_NAME = "YoungFifaChampions";
+    public static final String APP_NAME = "nai";
 
     //configuration folderss
     private static final String CONFIGURATION_FOLDER = "configuration";
@@ -83,8 +83,18 @@ public class Params {
     
     public String CONNECTION_STRING;
     
+    
+    //boolean string values
     public String TRUE_STRING_VALUE;
     public String FALSE_STRING_VALUE;
+    
+    
+    //Obsługa bazy danych
+    public String PATH_TO_DB;
+    public String CSV_COLUMN_DELIMETER;
+    
+    
+    
     
     
     
@@ -173,8 +183,8 @@ public class Params {
         //choping line to get name,value and type
         //name
         parameterName = line.split(PARAMETER_VALUE_DELIMETER)[0];
-        System.err.println(parameterName);
-        System.err.println(line);
+        //System.err.println(parameterName);
+        //System.err.println(line);
         //Check if type is defined
         if (line.split(PARAMETER_VALUE_DELIMETER)[1].contains(PARAMETER_TYPE_DELIMETER)) {
             //has defined type so split to get it

@@ -5,6 +5,12 @@
  */
 package com.mycompany.nai;
 
+import EntityMappers.AEntity;
+import EntityMappers.Entities;
+import java.util.ArrayList;
+import utils.CSVReader;
+import utils.EntitiesUtil;
+
 /**
  *
  * @author Tmejs (mateusz.rzad@gmail.com)
@@ -27,13 +33,23 @@ public class Main {
         }
 
         //Inicjalizacja LOG
-        LOG = new Logger(PARAMS.LOG_FILE_PATH,PARAMS.IS_FILE_APPEND, PARAMS.VERBOSE_MODE);
-        
-        
+        LOG = new Logger(PARAMS.LOG_FILE_PATH, PARAMS.IS_FILE_APPEND, PARAMS.VERBOSE_MODE);
+
+        Main.LOG.addLog(Main.class, Logger.LogType.DEBUG, Main.PARAMS.PATH_TO_DB);
+        LOG.addLog(Main.class, Logger.LogType.DEBUG, "Po inicjalizacji params i log");
+
+        //Pobranie bazy danych do aplikacji
+        try {
+            EntitiesUtil.mapArrayListToObjects(CSVReader.getDataFromCSVFile(PARAMS.PATH_TO_DB, PARAMS.CSV_COLUMN_DELIMETER));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+//        Entities.getInstance().printEntities();
         /* Set the Nimbus look and feel */ //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-                /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-                 */
+         */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {

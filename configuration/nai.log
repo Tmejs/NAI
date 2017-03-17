@@ -1,0 +1,117 @@
+2017/03/13 13:25:36	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/13 13:27:28	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/13 13:29:46	DEBUG	class com.mycompany.nai.Main	Application started
+2017/03/13 13:29:46	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/13 13:29:46	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 10:51:14	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 10:51:14	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 10:51:14	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 10:51:14	DEBUG	class utils.CSVReader	getDataFromCSVFile(./configuration/nai.log)
+2017/03/17 10:52:55	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 10:52:55	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 10:52:55	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 10:52:55	DEBUG	class utils.CSVReader	getDataFromCSVFile("./configuration/nai.log")
+2017/03/17 10:54:10	DEBUG	com.mycompany.nai.Logger@60215eee	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 10:54:10	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 10:54:10	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 10:54:10	DEBUG	class utils.CSVReader	getDataFromCSVFile("./configuration/nai.log")
+2017/03/17 10:54:11	DEBUG	com.mycompany.nai.Logger@60215eee	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 10:54:11	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 10:54:11	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 10:54:11	DEBUG	class utils.CSVReader	getDataFromCSVFile("./configuration/nai.log")
+2017/03/17 10:54:42	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 10:54:42	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 10:54:42	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 10:54:42	DEBUG	class utils.CSVReader	getDataFromCSVFile("./configuration/nai.log")
+2017/03/17 10:55:05	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 10:55:05	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 10:55:05	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 10:55:05	DEBUG	class utils.CSVReader	getDataFromCSVFile("./configuration/nai.log")
+2017/03/17 10:55:33	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 10:55:33	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 10:55:33	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 10:55:33	DEBUG	class utils.CSVReader	getDataFromCSVFile("./configuration/nai.log")
+2017/03/17 11:04:36	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 11:04:36	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 11:04:36	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 11:04:36	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 11:05:03	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 11:05:03	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 11:05:03	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 11:05:03	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 11:14:52	DEBUG	com.mycompany.nai.Logger@60215eee	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 11:14:52	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 11:14:52	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 11:14:52	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 11:15:28	DEBUG	com.mycompany.nai.Logger@60215eee	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 11:15:28	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 11:15:28	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 11:15:28	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 11:16:03	DEBUG	com.mycompany.nai.Logger@60215eee	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 11:16:03	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 11:16:03	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 11:16:03	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 11:35:57	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 11:35:57	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 11:35:57	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 11:35:57	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 11:36:16	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 11:36:16	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 11:36:16	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 11:36:16	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 11:36:56	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 11:36:56	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 11:36:56	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 11:36:56	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 11:38:11	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 11:38:11	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 11:38:11	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 11:38:11	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 11:38:35	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 11:38:35	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 11:38:35	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 11:38:35	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 11:38:35	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 11:38:35	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 11:39:12	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 11:39:13	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 11:39:13	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 11:39:13	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 11:39:13	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 11:39:13	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 11:39:13	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 11:39:13	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 11:40:12	DEBUG	com.mycompany.nai.Logger@60215eee	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 11:40:12	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 11:40:12	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 11:40:12	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 11:40:12	DEBUG	EntityMappers.AEntity@b065c63	addAtribute(Costam,aa)
+2017/03/17 11:40:12	DEBUG	EntityMappers.AEntity@b065c63	addAtribute(2_Costam,bb)
+2017/03/17 11:40:18	DEBUG	EntityMappers.AEntity@7d4793a8	addAtribute(Costam,DD)
+2017/03/17 11:40:18	DEBUG	EntityMappers.AEntity@7d4793a8	addAtribute(2_Costam,ee)
+2017/03/17 11:46:29	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 11:46:29	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 11:46:29	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 11:46:29	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 11:46:29	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 11:46:29	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 11:46:29	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 11:46:29	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 11:46:29	DEBUG	EntityMappers.Entities@12a3a380	printEntities()
+2017/03/17 11:47:11	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 11:47:11	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 11:47:11	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 11:47:11	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 11:47:11	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 11:47:11	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 11:47:11	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 11:47:11	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 11:47:11	DEBUG	EntityMappers.Entities@12a3a380	printEntities()
+2017/03/17 11:54:13	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 11:54:13	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 11:54:13	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 11:54:13	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 11:54:13	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 11:54:13	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 11:54:13	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 11:54:13	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
