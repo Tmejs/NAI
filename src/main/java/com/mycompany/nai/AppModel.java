@@ -5,6 +5,8 @@
  */
 package com.mycompany.nai;
 
+import EntityMappers.Attribute;
+import EntityMappers.Entities;
 
 /**
  *
@@ -12,17 +14,62 @@ package com.mycompany.nai;
  */
 public class AppModel {
 
-    private final App frame=App.instance();
-     
+    private final App frame = App.instance();
+
     public AppModel() {
         frame.setModel(this);
+        frame.setStartInfoText(WORDS.WELCOME_STRING);
     }
-    
-    public void showFrame(){
+
+    public void showFrame() {
         frame.setVisible(true);
     }
+
+    public Boolean sheckIsInDatabase(String name) {
+        Main.LOG.addLog(this, Logger.LogType.DEBUG, "sheckIsInDatabase("+name+")");
+        return (Entities.getInstance().getEntity(name) != null);
+    }
+
+    public void prepareToStartGame(){
+        frame.showAnswerPanel(false);
+        frame.showQuestionPanel(false);
+        frame.showStartPanel(true);
+    }
     
-    
-    
-    
+    public void startGame() {
+        Main.LOG.addLog(this, Logger.LogType.DEBUG, "startGame()");
+        frame.showStartPanel(false);
+        frame.showQuestionPanel(true);
+        frame.showAnswerPanel(false);
+        askNewQuestion();
+    }
+
+    public void askNewQuestion() {
+        Main.LOG.addLog(this, Logger.LogType.DEBUG, "askNewQuestion()");
+        //Tworzenie statystyk
+
+        //Tworzenie pytania
+        //Wyświetlenie pytania
+    }
+
+    public void getAnswer(Boolean answer) {
+        Main.LOG.addLog(this, Logger.LogType.DEBUG, "getAnswer("+answer+")");
+        Entities.getInstance().printEntities();
+        //Przefiltrowanie listy
+        Entities.getInstance().filterList(new Attribute("Costam", "aa"), true);
+        //Log z pozostałą listą
+        Entities.getInstance().printEntities();
+        //Sprawdzenie czy został tylko jeden elements
+        if (Entities.getInstance().getEntitites().size() == 1) {
+            endGame(Entities.getInstance().getEntitites().get(0).getName());
+        } else {
+            //Zadanie nowego pytania
+            askNewQuestion();
+        }
+    }
+
+    private void endGame(String name) {
+        Main.LOG.addLog(this, Logger.LogType.DEBUG, "endGame("+name+")");
+        frame.endGame(name);
+    }
 }

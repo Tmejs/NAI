@@ -29,5 +29,9 @@ public class EntitiesUtil {
             Entities.getInstance().addEntity(newEntity);
         }
     }
+    
+//    public static void generateStatistics();
+    
+//    public static void generateQuestion();
 
 }

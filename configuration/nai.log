@@ -115,3 +115,225 @@
 2017/03/17 11:54:13	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
 2017/03/17 11:54:13	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
 2017/03/17 11:54:13	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 12:06:32	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 12:06:32	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 12:06:32	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 12:06:32	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 12:06:32	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 12:06:32	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 12:06:32	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 12:06:32	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 12:08:20	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 12:08:20	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 12:08:20	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 12:08:20	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 12:08:20	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 12:08:20	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 12:08:20	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 12:08:20	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 12:37:42	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 12:37:43	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 12:37:43	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 12:37:43	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 12:37:43	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 12:37:43	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 12:37:43	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 12:37:43	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 12:38:40	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 12:38:40	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 12:38:40	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 12:38:40	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 12:38:40	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 12:38:40	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 12:38:40	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 12:38:40	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 12:39:12	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 12:39:12	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 12:39:12	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 12:39:12	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 12:39:12	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 12:39:12	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 12:39:12	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 12:39:12	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 12:41:10	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 12:41:10	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 12:41:10	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 12:41:10	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 12:41:10	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 12:41:10	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 12:41:10	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 12:41:10	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 12:41:55	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 12:41:55	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 12:41:55	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 12:41:55	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 12:41:55	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 12:41:55	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 12:41:55	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 12:41:55	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 12:42:46	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 12:42:46	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 12:42:46	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 12:42:46	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 12:42:46	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 12:42:46	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 12:42:46	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 12:42:46	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 12:45:12	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 12:45:12	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 12:45:12	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 12:45:12	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 12:45:12	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 12:45:12	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 12:45:12	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 12:45:12	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 12:55:09	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 12:55:09	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 12:55:09	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 12:55:09	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 12:55:09	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 12:55:09	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 12:55:09	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 12:55:09	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 13:36:17	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 13:36:17	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 13:36:17	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 13:36:17	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 13:36:17	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 13:36:17	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 13:36:17	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 13:36:17	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 13:38:46	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 13:38:46	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 13:38:46	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 13:38:46	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 13:38:46	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 13:38:46	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 13:38:46	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 13:38:46	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 13:41:28	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 13:41:28	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 13:41:28	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 13:41:28	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 13:41:28	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 13:41:28	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 13:41:28	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 13:41:28	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 13:42:03	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 13:42:03	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 13:42:03	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 13:42:03	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 13:42:03	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 13:42:03	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 13:42:03	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 13:42:03	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 13:42:48	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 13:42:48	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 13:42:48	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 13:42:48	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 13:42:48	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 13:42:48	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 13:42:48	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 13:42:48	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 13:43:11	DEBUG	EntityMappers.Entities@31134faf	printEntities()
+2017/03/17 13:43:12	DEBUG	EntityMappers.Entities@31134faf	printEntities()
+2017/03/17 13:43:19	DEBUG	EntityMappers.Entities@31134faf	printEntities()
+2017/03/17 14:04:13	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 14:04:13	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 14:04:13	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 14:04:13	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 14:04:13	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 14:04:13	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 14:04:13	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 14:04:13	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 14:04:25	DEBUG	com.mycompany.nai.AppModel@7fb72591	sheckIsInDatabase(a)
+2017/03/17 14:04:30	DEBUG	com.mycompany.nai.AppModel@7fb72591	sheckIsInDatabase(afdsfd)
+2017/03/17 14:04:37	DEBUG	com.mycompany.nai.AppModel@7fb72591	sheckIsInDatabase(zwierz)
+2017/03/17 14:06:17	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 14:06:17	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 14:06:17	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 14:06:17	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 14:06:17	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 14:06:17	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 14:06:17	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 14:06:17	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 14:06:32	DEBUG	com.mycompany.nai.AppModel@74eefa6c	sheckIsInDatabase(zwierz)
+2017/03/17 14:06:33	DEBUG	com.mycompany.nai.AppModel@74eefa6c	startGame()
+2017/03/17 14:06:33	DEBUG	com.mycompany.nai.AppModel@74eefa6c	askNewQuestion()
+2017/03/17 14:06:36	DEBUG	com.mycompany.nai.AppModel@74eefa6c	getAnswer(true)
+2017/03/17 14:06:36	DEBUG	EntityMappers.Entities@3e645c7e	printEntities()
+2017/03/17 14:06:36	DEBUG	EntityMappers.AEntity@7ea987ac	getAttribute(Costam)
+2017/03/17 14:06:36	DEBUG	EntityMappers.Entities@3e645c7e	printEntities()
+2017/03/17 14:06:36	DEBUG	com.mycompany.nai.AppModel@74eefa6c	askNewQuestion()
+2017/03/17 14:07:27	DEBUG	com.mycompany.nai.Logger@60215eee	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 14:07:27	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 14:07:27	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 14:07:27	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 14:07:27	DEBUG	EntityMappers.AEntity@768debd	addAtribute(Costam,aa)
+2017/03/17 14:07:27	DEBUG	EntityMappers.AEntity@768debd	addAtribute(2_Costam,bb)
+2017/03/17 14:07:28	DEBUG	EntityMappers.AEntity@449b2d27	addAtribute(Costam,DD)
+2017/03/17 14:07:28	DEBUG	EntityMappers.AEntity@449b2d27	addAtribute(2_Costam,ee)
+2017/03/17 14:07:43	DEBUG	com.mycompany.nai.AppModel@1792a52c	sheckIsInDatabase(zwierz)
+2017/03/17 14:07:44	DEBUG	com.mycompany.nai.AppModel@1792a52c	startGame()
+2017/03/17 14:07:44	DEBUG	com.mycompany.nai.AppModel@1792a52c	askNewQuestion()
+2017/03/17 14:07:45	DEBUG	com.mycompany.nai.AppModel@1792a52c	getAnswer(true)
+2017/03/17 14:07:45	DEBUG	EntityMappers.Entities@7c30740b	printEntities()
+2017/03/17 14:07:45	DEBUG	EntityMappers.AEntity@449b2d27	getAttribute(Costam)
+2017/03/17 14:08:16	DEBUG	EntityMappers.Entities@7c30740b	printEntities()
+2017/03/17 14:08:16	DEBUG	com.mycompany.nai.AppModel@1792a52c	askNewQuestion()
+2017/03/17 14:08:29	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 14:08:29	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 14:08:29	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 14:08:29	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 14:08:29	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 14:08:30	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 14:08:30	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 14:08:30	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 14:09:09	DEBUG	com.mycompany.nai.AppModel@b978afd	sheckIsInDatabase(zwierz)
+2017/03/17 14:09:10	DEBUG	com.mycompany.nai.AppModel@b978afd	startGame()
+2017/03/17 14:09:10	DEBUG	com.mycompany.nai.AppModel@b978afd	askNewQuestion()
+2017/03/17 14:09:11	DEBUG	com.mycompany.nai.AppModel@b978afd	getAnswer(true)
+2017/03/17 14:09:11	DEBUG	EntityMappers.Entities@1638ae88	printEntities()
+2017/03/17 14:09:11	DEBUG	EntityMappers.AEntity@7ea987ac	getAttribute(Costam)
+2017/03/17 14:09:11	DEBUG	EntityMappers.AEntity@4b67cf4d	getAttribute(Costam)
+2017/03/17 14:09:11	DEBUG	EntityMappers.Entities@1638ae88	printEntities()
+2017/03/17 14:09:11	DEBUG	com.mycompany.nai.AppModel@b978afd	askNewQuestion()
+2017/03/17 14:10:36	DEBUG	com.mycompany.nai.Logger@60215eee	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 14:10:36	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 14:10:36	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 14:10:36	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 14:10:36	DEBUG	EntityMappers.AEntity@768debd	addAtribute(Costam,aa)
+2017/03/17 14:10:36	DEBUG	EntityMappers.AEntity@768debd	addAtribute(2_Costam,bb)
+2017/03/17 14:10:36	DEBUG	EntityMappers.AEntity@449b2d27	addAtribute(Costam,DD)
+2017/03/17 14:10:36	DEBUG	EntityMappers.AEntity@449b2d27	addAtribute(2_Costam,ee)
+2017/03/17 14:10:53	DEBUG	com.mycompany.nai.AppModel@5d7a1b96	sheckIsInDatabase(zwierz)
+2017/03/17 14:10:54	DEBUG	com.mycompany.nai.AppModel@5d7a1b96	startGame()
+2017/03/17 14:10:54	DEBUG	com.mycompany.nai.AppModel@5d7a1b96	askNewQuestion()
+2017/03/17 14:10:55	DEBUG	com.mycompany.nai.AppModel@5d7a1b96	getAnswer(true)
+2017/03/17 14:10:55	DEBUG	EntityMappers.Entities@2cf2b12f	printEntities()
+2017/03/17 14:10:55	DEBUG	EntityMappers.AEntity@449b2d27	getAttribute(Costam)
+2017/03/17 14:11:14	DEBUG	EntityMappers.AEntity@768debd	getAttribute(Costam)
+2017/03/17 14:13:21	DEBUG	com.mycompany.nai.Logger@2503dbd3	 Logg initialized on ./configuration/nai.logwith verbose mode =true
+2017/03/17 14:13:21	DEBUG	class com.mycompany.nai.Main	db.csv
+2017/03/17 14:13:21	DEBUG	class com.mycompany.nai.Main	Po inicjalizacji params i log
+2017/03/17 14:13:21	DEBUG	class utils.CSVReader	getDataFromCSVFile("db.csv")
+2017/03/17 14:13:21	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(Costam,aa)
+2017/03/17 14:13:22	DEBUG	EntityMappers.AEntity@4b67cf4d	addAtribute(2_Costam,bb)
+2017/03/17 14:13:22	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(Costam,DD)
+2017/03/17 14:13:22	DEBUG	EntityMappers.AEntity@7ea987ac	addAtribute(2_Costam,ee)
+2017/03/17 14:13:39	DEBUG	com.mycompany.nai.AppModel@1f330740	sheckIsInDatabase(zwierz)
+2017/03/17 14:13:40	DEBUG	com.mycompany.nai.AppModel@1f330740	startGame()
+2017/03/17 14:13:40	DEBUG	com.mycompany.nai.AppModel@1f330740	askNewQuestion()
+2017/03/17 14:13:41	DEBUG	com.mycompany.nai.AppModel@1f330740	getAnswer(true)
+2017/03/17 14:13:41	DEBUG	EntityMappers.Entities@62828257	printEntities()
+2017/03/17 14:13:41	DEBUG	EntityMappers.AEntity@7ea987ac	getAttribute(Costam)
+2017/03/17 14:13:41	DEBUG	EntityMappers.AEntity@4b67cf4d	getAttribute(Costam)
+2017/03/17 14:13:41	DEBUG	EntityMappers.Entities@62828257	printEntities()
+2017/03/17 14:13:41	DEBUG	com.mycompany.nai.AppModel@1f330740	endGame(Zwierz)
+2017/03/17 14:13:45	DEBUG	com.mycompany.nai.AppModel@1f330740	startGame()
+2017/03/17 14:13:45	DEBUG	com.mycompany.nai.AppModel@1f330740	askNewQuestion()
+2017/03/17 14:13:47	DEBUG	com.mycompany.nai.AppModel@1f330740	getAnswer(true)
+2017/03/17 14:13:47	DEBUG	EntityMappers.Entities@62828257	printEntities()
+2017/03/17 14:13:47	DEBUG	EntityMappers.AEntity@4b67cf4d	getAttribute(Costam)
+2017/03/17 14:13:47	DEBUG	EntityMappers.Entities@62828257	printEntities()
+2017/03/17 14:13:47	DEBUG	com.mycompany.nai.AppModel@1f330740	endGame(Zwierz)

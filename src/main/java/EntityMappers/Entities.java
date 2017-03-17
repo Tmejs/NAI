@@ -40,14 +40,14 @@ public class Entities {
 
     public void printEntities() {
         Main.LOG.addLog(this, Logger.LogType.DEBUG, "printEntities()");
-        for(AEntity entity:entities){
+        for (AEntity entity : entities) {
             System.out.print(entity.getName());
-            for(Attribute atr:entity.getAttributes()){
-                System.out.print(atr.getAttributeName()+":"+atr.getValue());
+            for (Attribute atr : entity.getAttributes()) {
+                System.out.print(atr.getAttributeName() + ":" + atr.getValue());
             }
             System.out.println("");
         }
-        
+
     }
 
     public AEntity getEntity(String entityName) {
@@ -60,13 +60,15 @@ public class Entities {
     }
 
     public void filterList(Attribute atribute, Boolean isOk) {
-        for (int i = getEntitites().size() - 1; i > 0; i--) {
+        for (int i = getEntitites().size() - 1; i >= 0; i--) {
             Object atributeValue = getEntitites().get(i).getAttribute(atribute.getAttributeName());
             if (atributeValue != null) {
                 if (atributeValue.equals(atribute.getValue())) {
                     if (!isOk) {
                         getEntitites().remove(getEntitites().get(i));
                     }
+                } else if (isOk) {
+                    getEntitites().remove(getEntitites().get(i));
                 }
             }
         }
