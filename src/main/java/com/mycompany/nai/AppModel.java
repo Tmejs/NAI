@@ -5,8 +5,12 @@
  */
 package com.mycompany.nai;
 
+import EntityMappers.AEntity;
 import EntityMappers.Attribute;
 import EntityMappers.Entities;
+import java.util.List;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 /**
  *
@@ -14,7 +18,7 @@ import EntityMappers.Entities;
  */
 public class AppModel {
 
-    private final App frame = App.instance();
+    private final App frame = new App(this);
 
     public AppModel() {
         frame.setModel(this);
@@ -28,6 +32,12 @@ public class AppModel {
     public Boolean sheckIsInDatabase(String name) {
         Main.LOG.addLog(this, Logger.LogType.DEBUG, "sheckIsInDatabase("+name+")");
         return (Entities.getInstance().getEntity(name) != null);
+    }
+    
+    public List<String> getDatabase(){
+        List<String> aa = Entities.getInstance().getEntitites().stream().map(d->d.getName()).distinct().collect(Collectors.toList());
+        aa.sort(String.CASE_INSENSITIVE_ORDER);
+        return aa;
     }
 
     public void prepareToStartGame(){
@@ -49,6 +59,7 @@ public class AppModel {
         //Tworzenie statystyk
 
         //Tworzenie pytania
+        
         //Wyświetlenie pytania
     }
 

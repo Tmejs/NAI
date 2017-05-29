@@ -35,6 +35,8 @@ public class Entities {
     }
 
     public void addEntity(AEntity entity) {
+                Main.LOG.addLog(this, Logger.LogType.DEBUG, "addEntity("+entity.getName()+")");
+
         getEntitites().add(entity);
     }
 

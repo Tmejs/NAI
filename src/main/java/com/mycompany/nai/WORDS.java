@@ -21,5 +21,5 @@ public class WORDS {
             + "Aplikacja została stworzona na ptorzeby przedmiotu NAI.<br>"
             + "Realizcuję model sztucznej inteligencji oparty na budowania drzew binarnych. <br>"
             + "Aplikacja działa na bazie danych w pliku "+Main.PARAMS.PATH_TO_DB+"<br>"
-            + "Aby rozpocząć grę wybierz element z bazy, sprawdz czy na pewno jest ok i kliknij \"START\".</div>";
+            + "Aby rozpocząć upewnij się że Twoje zwierze jest na liście dostępnych i kliknij \"START\".</div>";
 }

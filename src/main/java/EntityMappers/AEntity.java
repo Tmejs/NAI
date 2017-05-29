@@ -20,6 +20,7 @@ public class AEntity implements IEntity {
     private ArrayList<Attribute> attributes;
 
     public AEntity(String name) {
+        Main.LOG.addLog(this, Logger.LogType.DEBUG, "AEntity(" + name+ ")");
         this.name = name;
     }
 
