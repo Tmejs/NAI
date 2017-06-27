@@ -44,6 +44,9 @@ public class App extends javax.swing.JFrame {
         model = mm;
     }
 
+    public void setNewQuestion(String question){
+        jEditorPane2.setText(question);
+    }
     
     public void setStartInfoText(String txt) {
         jEditorPane1.setContentType("text/html");
@@ -52,8 +55,9 @@ public class App extends javax.swing.JFrame {
 
     public void endGame(String name) {
         showQuestionPanel(false);
-        showAnswerPanel(true);
         jTextField2.setText(name);
+        showAnswerPanel(true);
+        
 
     }
 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>utils</OriginalElement>
+  <nodes>
+    <node x="0.0" y="466.0">utils.EntitiesUtil</node>
+    <node x="285.0" y="207.0">utils.QuestionGenerator</node>
+    <node x="0.0" y="0.0">utils.Question</node>
+    <node x="0.0" y="207.0">utils.AttributeStat</node>
+    <node x="0.0" y="370.0">utils.CSVReader</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="291.0" y="258.5" />
+  <SelectedNodes>
+    <node>utils.EntitiesUtil</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

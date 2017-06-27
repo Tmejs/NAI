@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>EntityMappers</OriginalElement>
+  <nodes>
+    <node x="0.0" y="167.0">EntityMappers.AEntity</node>
+    <node x="0.0" y="713.0">EntityMappers.GameTree</node>
+    <node x="0.0" y="374.0">EntityMappers.Entities</node>
+    <node x="6.5" y="0.0">EntityMappers.IEntity</node>
+    <node x="419.0" y="374.0">EntityMappers.Node</node>
+    <node x="278.0" y="0.0">EntityMappers.Attribute</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="EntityMappers.AEntity" target="EntityMappers.IEntity">
+      <point x="0.0" y="-81.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8022959183673469" x="363.3736089030207" y="262.0" />
+  <SelectedNodes>
+    <node>EntityMappers.IEntity</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

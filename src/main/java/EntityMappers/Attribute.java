@@ -6,6 +6,9 @@
 package EntityMappers;
 
 import com.mycompany.nai.Main;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  *
@@ -19,18 +22,13 @@ public class Attribute {
 
     private static String trueStringValue = "true";
     private static String falseStringValue = "false";
-    private static Boolean isValueSet = false;
 
     public Attribute(String atributteName, String stringValue) {
         this.atributteName = atributteName;
         setValue(stringValue);
-
-        if (!isValueSet) {
-            setBooleanValues();
-        }
     }
-    
-    public String getAttributeName(){
+
+    public String getAttributeName() {
         return atributteName;
     }
 
@@ -45,19 +43,17 @@ public class Attribute {
     public Boolean checkIsValueBool() {
         return boolValue != null;
     }
-
-    public void setBooleanValues() {
-        if (Main.PARAMS.TRUE_STRING_VALUE != null) {
-            trueStringValue = Main.PARAMS.TRUE_STRING_VALUE;
-        }
-
-        if (Main.PARAMS.FALSE_STRING_VALUE != null) {
-            falseStringValue = Main.PARAMS.FALSE_STRING_VALUE;
-        }
-
-        isValueSet = true;
-
-    }
+//
+//    public void setBooleanValues() {
+//        if (Main.PARAMS.TRUE_STRING_VALUE != null) {
+//            trueStringValue = Main.PARAMS.TRUE_STRING_VALUE;
+//        }
+//
+//        if (Main.PARAMS.FALSE_STRING_VALUE != null) {
+//            falseStringValue = Main.PARAMS.FALSE_STRING_VALUE;
+//        }
+//        setBooleanValues();
+//    }
 
     private void setValue(String stringValue) {
 
@@ -70,8 +66,15 @@ public class Attribute {
             boolValue = false;
             return;
         }
-
         this.stringValue = stringValue;
+    }
+
+    public static List<Object> getAttributeDistinctValues(List<AEntity> entitiesList, Attribute attr) {
+        List<Object> list = new ArrayList<>();
+        entitiesList.forEach(a -> {
+            list.add(a.getAttributeValue(attr.atributteName));
+        });
+        return list.stream().distinct().collect(Collectors.toList());
 
     }
 

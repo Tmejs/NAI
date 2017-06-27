@@ -19,7 +19,7 @@ public interface IEntity {
     
     public ArrayList<Attribute> getAttributes();
     
-    public Object getAttribute(String attributeName);
+    public Object getAttributeValue(String attributeName);
     
     public void addAtribute(String attributeName, String attrbiuteValue);
     

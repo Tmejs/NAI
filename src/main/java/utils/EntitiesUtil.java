@@ -30,7 +30,11 @@ public class EntitiesUtil {
         }
     }
     
-//    public static void generateStatistics();
+    private static void loadData(ArrayList<ArrayList<String>> arr){
+        Entities.getInstance().getEntitites().clear();
+        mapArrayListToObjects(arr);
+    };
+    
     
 //    public static void generateQuestion();
 

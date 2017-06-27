@@ -45,7 +45,7 @@ public class AEntity implements IEntity {
     }
 
     @Override
-    public Object getAttribute(String attributeName) {
+    public Object getAttributeValue(String attributeName) {
         Main.LOG.addLog(this, Logger.LogType.DEBUG, "getAttribute(" + attributeName + ")");
         for (Attribute atr : attributes) {
             if (atr.getAttributeName().equalsIgnoreCase(attributeName)) {

@@ -11,6 +11,7 @@ import EntityMappers.Entities;
 import java.util.List;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
+import utils.QuestionGenerator;
 
 /**
  *
@@ -41,6 +42,7 @@ public class AppModel {
     }
 
     public void prepareToStartGame(){
+        
         frame.showAnswerPanel(false);
         frame.showQuestionPanel(false);
         frame.showStartPanel(true);
@@ -56,18 +58,17 @@ public class AppModel {
 
     public void askNewQuestion() {
         Main.LOG.addLog(this, Logger.LogType.DEBUG, "askNewQuestion()");
-        //Tworzenie statystyk
-
-        //Tworzenie pytania
-        
-        //Wyświetlenie pytania
+        frame.setNewQuestion(Entities.getInstance().getNewQuestion().getQuestionString());
     }
 
     public void getAnswer(Boolean answer) {
         Main.LOG.addLog(this, Logger.LogType.DEBUG, "getAnswer("+answer+")");
         Entities.getInstance().printEntities();
+        Entities.getInstance().filterByAskedQuestion(answer);
+        
         //Przefiltrowanie listy
-        Entities.getInstance().filterList(new Attribute("Costam", "aa"), true);
+        //Entities.getInstance().filterList(Entities.getInstance().getEntitites(),Entities.getInstance().getQuestionFromTree(), answer);
+        //Entities.getInstance().moveQuestionTreeRoot(boolean );
         //Log z pozostałą listą
         Entities.getInstance().printEntities();
         //Sprawdzenie czy został tylko jeden elements
